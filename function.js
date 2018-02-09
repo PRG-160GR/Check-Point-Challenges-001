@@ -1,18 +1,19 @@
-function Prime(n) {
+var name = windows.prompt("Please enter your name:")
+var ageCheck = window.prompt (Please enter your age)
 
-if (n >= 2) {
+if (ageCheck < 21) {
 
-for (var i = 2; i < n; i++) {
-if(n % i === 0) {
-
-return false;
-}
+      window.alert("You submited that you are :" + ageCheck +": years old, " + name + ".");
+      window.alert("You must be at least 21 years old to drink in the state of PA");
 }
 
-return true;
-}
+    else if (ageCheck > 21 && ageCheck < 101) {
 
-return false;
-}
+      window.alert("You are old enough to drink in PA");
+      window.alert("Welcome " + name + "!");
+    }
 
-console.log(Prime(7));
+else {
+      window.alert("You best not be lying about your age, " + name + ".");
+
+}
