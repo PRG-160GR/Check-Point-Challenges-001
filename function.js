@@ -1,9 +1,4 @@
-functio alertStatement(link){
-if (link){
-            alert('A');
-     }
+var str = "Welcome to this amazing sentence.";
+var words = str.split(" ");
 
-if(link!=null){
-        alert('B');
-    }
- }
+console.log(words);
