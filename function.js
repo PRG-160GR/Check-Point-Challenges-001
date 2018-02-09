@@ -1,7 +1,9 @@
-var number = 1;
+functio alertStatement(link){
+if (link){
+            alert('A');
+     }
 
-  while (number <= 5) {
-  console.log(number);
-
-  number++;
-}
+if(link!=null){
+        alert('B');
+    }
+ }
