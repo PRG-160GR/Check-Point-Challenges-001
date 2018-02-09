@@ -1,4 +1,3 @@
-var str = "Welcome to this amazing sentence.";
-var words = str.split(" ");
+var div = document.getElementById('divID');
 
-console.log(words);
+div.innerHTML += 'Extra stuff';
